@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt forma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="forma">
+<h1>Kontaktkirajte nas</h1>
+<p>Molimo vas da popunite sledeći obrazac kako bismo mogli da vas kontaktiramo.</p>
+<label for="ime i prezime">Ime i prezime:</label>
+<input type="text" id="imePrezime" name="imePrezime" required Placeholder="Marko Marković">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required Placeholder="marko.markovic@example.com">
+<label for="telefon">Telefon:</label>
+<input type="tel" id="telefon" name="telefon" required Placeholder="+387 66 123 456">
+<label for="Tema">Tema:</label>
+<select id="tema" name="tema" required>
+    <option value="">Opste pitanje</option>
+    <option value="pitanje">Savet</option>
+    <option value="pohvala">Saradnja</option>
+</select> 
+    <label for="poruka">Poruka:</label>
+    <textarea id="poruka" name="poruka" rows="4"></textarea>
+    <label for="uslovi">Uslovi korišćenja:</label>
+    <input type="checkbox" id="uslovi" name="uslovi" required>
+    <label for="uslovi">Prihvatam uslove korišćenja</label>
+    <button type="submit">Pošalji poruku</button>
+    
+</form>
+
+
+</body>
+</html>
